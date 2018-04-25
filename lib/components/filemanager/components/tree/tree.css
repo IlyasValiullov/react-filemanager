@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+.scroll_list {
+    overflow: scroll;
+    display: block;
+    height: 100%;
+}
+
