@@ -22,6 +22,14 @@ module.exports = env => {
                     }
                 }
             ]
+        },
+        externals: {
+            react: {
+                root: 'React',
+                commonjs2: 'react',
+                commonjs: 'react',
+                amd: 'react'
+            }
         }
     }
 }
