@@ -2,7 +2,7 @@
   "name": "react-filemanager",
   "version": "0.1.2",
   "description": "",
-  "main": "lib/index.js",
+  "main": "src/lib/index.js",
   "repository": {
     "type": "git",
     "url": "github.com/IlyasValiullov/react-filemanager"
