@@ -1,5 +1,5 @@
 {
   "private": true,
   "name": "FileManager",
-  "main": "./index.js"
+  "main": "index.js"
 }
