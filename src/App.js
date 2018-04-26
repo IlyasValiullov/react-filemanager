@@ -2,8 +2,8 @@ import React                from 'react'
 import FileManager        from 'components/filemanager'
 class App extends React.Component {
 
-    fileSelected =() => {
-        console.log("fileSelected");
+    fileSelected =(file) => {
+        console.log("fileSelected", file);
     }
 
     render() {
