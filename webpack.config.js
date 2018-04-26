@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports =
     {
-        entry: path.join(__dirname, "src/lib"),
+        entry: ['babel-polyfill', path.join(__dirname, "src/lib")],
         output: {
             path: path.join(__dirname, 'dist'),
             filename: 'index.js'
