@@ -7,3 +7,11 @@
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
+
+.item-text:hover{
+    background-color: lightgrey;
+}
+
+.item_text_active {
+    background-color: cadetblue;
+}
